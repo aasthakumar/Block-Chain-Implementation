@@ -247,6 +247,8 @@ hr {
           document.getElementById("mySidenav").style.width = "250px";
           document.getElementById("main").style.marginLeft = "250px";
           document.getElementById("btn1").style.marginLeft = "250px";
+          document.getElementById("lbl_product_serial_number").style.marginLeft= "250px";
+          document.getElementById("product_serial_number").style.marginLeft= "0px";
           document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
       }
       
@@ -254,12 +256,14 @@ hr {
           document.getElementById("mySidenav").style.width = "0";
           document.getElementById("main").style.marginLeft= "0";
           document.getElementById("btn1").style.marginLeft= "0";
+          document.getElementById("lbl_product_serial_number").style.marginLeft= "0";
+          document.getElementById("product_serial_number").style.marginLeft= "0";
           document.body.style.backgroundColor = "white";
       }
      
     </script>
 
-<label for="Product_Serial_Number">Product Serial Number:</label>
+<label id = "lbl_product_serial_number" for="Product_Serial_Number">Product Serial Number:</label>
 <input type="text" id="product_serial_number" name="product_serial_number" placeholder="Enter Product Serial Number" style="width:300px;" required>
 
 <br> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
